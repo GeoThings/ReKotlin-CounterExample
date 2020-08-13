@@ -16,7 +16,7 @@ import tw.geothings.rekotlin.StoreSubscriber
  * Copyright © 2016 GeoThings. All rights reserved.
  */
 
-// The global application store, which is responsible for managing the appliction state.
+// The global application store, which is responsible for managing the application state.
 val mainStore = Store(
         reducer = ::counterReducer,
         state = null
